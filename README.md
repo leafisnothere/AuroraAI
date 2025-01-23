@@ -1,9 +1,12 @@
-Aurora-AI - V0.1.0 (BETA)
+Aurora-AI - V0.1.1 (BETA)
+
 Hello, thank you for using Aurora AI, a open source-code Discord Bot using Google Gemini's API.
 
 **IMPORTANT**
 - We are not responsible for any data leakage from modified products and un-official sources, it is recomended for you to use official source, for this case: https://github.com/leafisnothere/AuroraAI.
-To start, you may want to add Enviromental Secrets under these Key Names:
+
+**Set up**
+- To start, you may want to add Enviromental Secrets under these Key Names:
 
 + DiscordBOT: Your Discord Bot Token
 + GeminiAPI: Your Gemini API Key
@@ -12,7 +15,8 @@ To start, you may want to add Enviromental Secrets under these Key Names:
 **Support**
 - If you ran into any bugs/proberlems, you way report/ask it to us in our Discord Server: https://discord.gg/Vr9teD5KBa
 
-Credits:
+**Cresits**
+Developer (S):
 + Lead-developer: leafisnothere
 
 Libraries that have been used:
