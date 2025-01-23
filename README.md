@@ -16,10 +16,10 @@ Hello, thank you for using Aurora AI, a open source-code Discord Bot using Googl
 - If you ran into any bugs/proberlems, you way report/ask it to us in our Discord Server: https://discord.gg/Vr9teD5KBa
 
 **Cresits**
-Developer (S):
+- Developer(S):
 + Lead-developer: leafisnothere
 
-Libraries that have been used:
+- Libraries that have been used:
 
 + discord.js: https://discord.js.org/
 + commandkit: https://commandkit.js.org/
