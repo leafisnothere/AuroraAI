@@ -11,6 +11,7 @@ module.exports = {
     const SourceCode = new EmbedBuilder()
       .setTitle("Source Code")
       .setDescription("This embed will show links to source-codes of this bot and the open-source license and code of this conduct")
+      .setColor("004AAD")
       .addFields(
         { name: 'This bot', value: `${BOTSourceCode}` },
         { name: 'Opened Resource (For everyone)', value: 'https://github.com/leafisnothere/AuroraAI' },

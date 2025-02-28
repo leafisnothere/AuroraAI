@@ -13,6 +13,7 @@ const client = new Client({
 new CommandKit({
   client,
   commandsPath: `${__dirname}/Commands`,
+  bulkRegister: true,
 })
 
 client.login(process.env.DiscordBOT);
