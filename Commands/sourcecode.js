@@ -17,7 +17,7 @@ module.exports = {
         { name: 'Opened Resource (For everyone)', value: 'https://github.com/leafisnothere/AuroraAI' },
       )
       .setFooter({ text: '© 2025 Aurora Group - All rights reserved' })
-      .setImage('https://cdn.discordapp.com/attachments/1329085784644386846/1331656158305583165/AuroraCore_Designs_20250122_230601_0000.png?ex=679268f1&is=67911771&hm=2ad37e72e80b740dcb8c84f9d77ca1d399de770cdda0f6a02e95fa668e330d2e&')
+      .setImage('https://cdn.discordapp.com/attachments/1335978783215194112/1344972931163361430/AuroraCore_Designs_20250227_220321_0000.png?ex=67c2db27&is=67c189a7&hm=5de9dd39e020f5ea4df2fdd7e873ffed935ba1ea62d662290f3d7cf5f432cd27&')
     interaction.reply({ embeds: [SourceCode], flags: MessageFlags.Ephemeral});
   },
 
