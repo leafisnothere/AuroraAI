@@ -1,6 +1,6 @@
 Aurora-AI - V0.2.0 (BETA) | FEB/28/2025
 
-Hello, thank you for using Aurora AI, an open source-code Discord Bot using Google Gemini's API.
+Hello, thank you for using Aurora AI, an open source-code Discord Bot using Google DeepMind API.
 
 **IMPORTANT**
 - We are not responsible for any data leakage from modified products and un-official sources, it is recommended for you to use official source, for this case: https://github.com/leafisnothere/AuroraAI.
