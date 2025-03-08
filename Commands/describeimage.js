@@ -10,7 +10,7 @@ module.exports = {
     .setDescription("Translate a message by Aurora AI")
     .addAttachmentOption(option =>
       option.setName('image')
-        .setDescription('Image that you want to be described'))
+        .setDescription('Image that you want to be described')),
 
   run: ({ interaction }) => {
     interaction.reply({ content: "Translating...", flags: MessageFlags.Ephemeral })
