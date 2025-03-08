@@ -8,18 +8,10 @@ module.exports = {
   data: new SlashCommandBuilder()
     .setName("translate")
     .setDescription("Translate a message by Aurora AI")
-    .addStringOption((option) =>
-      option
-      .setName("content")
-      .setDescription("Content that you want to translate")
-      .setRequired(true)
-    )
-    .addStringOption((option) =>
-      option
-      .setName("output-launguage")
-      .setDescription("Launguage that you want to translate to")
-      .setRequired(true)
-    ),
+    .addAttachmentOption(option =>
+      option.setName('image')
+        .setDescription('Image that you want to be described'))
+
   run: ({ interaction }) => {
     interaction.reply({ content: "Translating...", flags: MessageFlags.Ephemeral })
     const Content = interaction.options.getString("content");
