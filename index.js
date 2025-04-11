@@ -13,7 +13,6 @@ const client = new Client({
 new CommandKit({
   client,
   commandsPath: `${__dirname}/Commands`,
-  eventsPath: `${__dirname}/Events`,
   bulkRegister: true,
 })
 
@@ -22,4 +21,6 @@ client.login(process.env.DiscordBOT);
 client.on('ready', (C) => {
   console.log(`Bot is ready, logged in as ${C.user.username}`)
   client.user.setStatus(PresenceUpdateStatus.Online);
+  client.user.setPresence(Status)
+  client.user.setActivity(`/ask-ai!`, { type: ActivityType.Watching });
 })
