@@ -2,7 +2,7 @@ const { SlashCommandBuilder, MessageFlags } = require("discord.js");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const apiKey = process.env['GeminiAPI']
 const genAI = new GoogleGenerativeAI(apiKey);
-const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-pro-exp-03-25" });
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -27,11 +27,12 @@ module.exports = {
           }
         ],
         generationConfig: {
-          temperature: 0, 
+          temperature: 0,
         },
+        tools: [{googleSearch: {}}]
       });
 
-      interaction.editReply({ content: result.response.text(), flags: MessageFlags.Ephemeral })
+      interaction.editReply({ content: result.response.text(), flags: MessageFlags.Ephemeral });
     }
     generateText();
   },
