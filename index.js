@@ -19,7 +19,7 @@ new CommandKit({
 client.login(process.env.DiscordBOT);
 
 client.on('ready', (C) => {
-  console.log(`Bot is ready, logged in as ${C.user.username}`)
+  console.log(`The Bot is ready, logged in as ${C.user.username}`)
   client.user.setStatus(PresenceUpdateStatus.Online);
   client.user.setPresence(Status)
   client.user.setActivity(`/ask-ai!`, { type: ActivityType.Watching });
